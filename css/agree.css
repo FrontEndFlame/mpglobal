@@ -1,0 +1,54 @@
+html {
+  background: #222222;
+  font-family: 'Montserrat';
+  color: white;
+  font-size: 16px;
+}
+
+body {
+  padding: 3rem;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+}
+
+h2 {
+  text-align: center;
+  font-size: 1.4rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+
+p, li {
+  font-size: 1.2rem;
+  line-height: 1.4rem;
+}
+
+ul {
+  list-style-type: disc;
+  margin-top: 0.3rem;
+  padding-left: 1.2rem;
+}
+
+.part {
+  margin-bottom: 3rem;
+}
+
+.bck {
+  text-align: end;
+  display: block;
+  color: white;
+}
+
+@media (max-width:486px) {
+  html {
+    font-size: 14px;
+  }
+  body {
+    padding: 3rem 2rem;
+  }
+}
